@@ -14,4 +14,9 @@ data class User(
     @Inject
     constructor() : this(0, "", "", "", "")
 
+    fun getNames(): Array<String> {
+        val name = this.userName
+        val array = name!!.split("/").toTypedArray()
+        return array
+    }
 }
