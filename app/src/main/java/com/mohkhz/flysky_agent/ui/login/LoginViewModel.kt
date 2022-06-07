@@ -38,11 +38,12 @@ class LoginViewModel @Inject constructor(private val repository: Repository) : V
     private val _loginProgress = MutableStateFlow<Boolean>(false)
     val loginProgress: StateFlow<Boolean> = _loginProgress
 
+    private val _loginResult = MutableStateFlow<Boolean?>(null)
+    val loginResult: StateFlow<Boolean?> = _loginResult
+
     private val _infoDialog = MutableStateFlow<Boolean>(false)
     val infoDialog: StateFlow<Boolean> = _infoDialog
 
-    //    private val _test = MutableStateFlow<BottomSheetScaffoldState>
-//    val a = mutableStateOf<>()
     fun onEvent(event: LoginEvent) {
         when (event) {
             is LoginEvent.OnLoginClick -> {
@@ -80,15 +81,18 @@ class LoginViewModel @Inject constructor(private val repository: Repository) : V
                 is Resource.Error -> {
                     Log.d(TAG, response.message!!)
                     _loginProgress.value = false
+                    _loginResult.value = false
                 }
                 is Resource.Success -> {
+                    _loginProgress.value = false
                     val result = response.data
                     Log.d(TAG, "${response.data?.status_code}")
                     if (response.data?.status_code.equals("200")) {
                         repository.updateDataStore(website = webSite, phoneNumber = number)
                         onEvent(LoginEvent.GoToHome(response.data?.user!!))
+                        _loginResult.value = true
                     } else {
-                        _emptyFieldError.value = true //  error to find user
+                        _loginResult.value = false
                     }
                 }
             }
