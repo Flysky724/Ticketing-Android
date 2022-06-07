@@ -13,6 +13,7 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import retrofit2.converter.scalars.ScalarsConverterFactory
 import javax.inject.Singleton
 
 @Module
@@ -33,7 +34,10 @@ object AppModule {
     @Singleton
     @Provides
     fun providerApi(): Api =
-        Retrofit.Builder().baseUrl("http:/172.16.57.164/pro/flysky_agent/Api/").addConverterFactory(GsonConverterFactory.create()).build()
+        Retrofit.Builder().baseUrl("https://flyskyagent.000webhostapp.com/flysky_agent/Api/")
+            .addConverterFactory(GsonConverterFactory.create()).addConverterFactory(
+                ScalarsConverterFactory.create()
+            ).build()
             .create(Api::class.java)
 
     @Singleton
