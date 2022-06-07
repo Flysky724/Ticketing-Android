@@ -4,6 +4,60 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/compose-model-1652126176834.xml" value="0.2564814814814815" />
+        <entry key="../../../../layout/compose-model-1652938154486.xml" value="0.22" />
+        <entry key="../../../../layout/compose-model-1652943507250.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1652946443174.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1652969288344.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1652973928395.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1652991998806.xml" value="0.2736757624398074" />
+        <entry key="../../../../layout/compose-model-1652992275190.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1652992947929.xml" value="0.25408011869436203" />
+        <entry key="../../../../layout/compose-model-1652993862033.xml" value="0.67" />
+        <entry key="../../../../layout/compose-model-1652993930031.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1653160482006.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1653337269778.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1653337747753.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1653375342391.xml" value="0.28927364864864863" />
+        <entry key="../../../../layout/compose-model-1653381795087.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1653388299987.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1653388476210.xml" value="0.28927364864864863" />
+        <entry key="../../../../layout/compose-model-1653392590980.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1653392617143.xml" value="0.28927364864864863" />
+        <entry key="../../../../layout/compose-model-1653394292554.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1653407819954.xml" value="0.67" />
+        <entry key="../../../../layout/compose-model-1653409042681.xml" value="0.5" />
+        <entry key="../../../../layout/compose-model-1653421982108.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1653423616669.xml" value="0.5" />
+        <entry key="../../../../layout/compose-model-1653423970828.xml" value="0.5" />
+        <entry key="../../../../layout/compose-model-1653424893045.xml" value="0.22" />
+        <entry key="../../../../layout/compose-model-1653425678657.xml" value="0.28927364864864863" />
+        <entry key="../../../../layout/compose-model-1653425689165.xml" value="0.5" />
+        <entry key="../../../../layout/compose-model-1653425696945.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1653425724032.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1653472807176.xml" value="0.28927364864864863" />
+        <entry key="../../../../layout/compose-model-1653472848602.xml" value="0.33" />
+        <entry key="../../../../layout/compose-model-1653547893149.xml" value="0.5" />
+        <entry key="../../../../layout/compose-model-1653835922880.xml" value="0.28842905405405406" />
+        <entry key="../../../../layout/compose-model-1653836464290.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1653837929040.xml" value="0.28927364864864863" />
+        <entry key="../../../../layout/compose-model-1653838885389.xml" value="0.28927364864864863" />
+        <entry key="../../../../layout/compose-model-1653849962570.xml" value="0.28927364864864863" />
+        <entry key="../../../../layout/compose-model-1653891091619.xml" value="0.2875844594594595" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.1575" />
+        <entry key="app/src/main/res/drawable/ic_add_profile.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_back_arrow.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_box_perpule.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_box_red.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_circle.xml" value="0.1575" />
+        <entry key="app/src/main/res/drawable/ic_enter.xml" value="0.1575" />
+        <entry key="app/src/main/res/drawable/ic_next.xml" value="0.1575" />
+        <entry key="app/src/main/res/drawable/ic_notification.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_outerbg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_phone.xml" value="0.1575" />
+        <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_send_ok.xml" value="0.3305" />
+        <entry key="app/src/main/res/drawable/logo.xml" value="0.1" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.19375" />
       </map>
     </option>
   </component>

@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/flysky_agent.iml" filepath="$PROJECT_DIR$/.idea/modules/flysky_agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/flysky_agent.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/flysky_agent.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/flysky_agent.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/flysky_agent.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/flysky_agent.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/flysky_agent.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/flysky_agent.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/flysky_agent.app.unitTest.iml" />
     </modules>
   </component>
 </project>
