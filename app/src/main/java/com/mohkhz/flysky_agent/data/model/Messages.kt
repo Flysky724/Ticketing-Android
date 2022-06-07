@@ -7,4 +7,5 @@ data class Messages(
     var read: Boolean,
     var tId: Int,
     var uId: Int,
+    var sendProgress: Boolean = false
 )
