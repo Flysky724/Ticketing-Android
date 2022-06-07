@@ -1,0 +1,87 @@
+{
+  ConstraintSets: {
+    start: {
+      header_text: {
+        width: 70,
+        height: 70,
+        end: [
+          'parent',
+          'end',
+          25
+        ],
+        top: [
+          'parent',
+          'top',
+          10
+        ],
+        custom: {
+          background: '#08ff04'
+        }
+      },
+      box: {
+        width: 'spread',
+        height: 'spread',
+        start: [
+          'parent',
+          'start'
+        ],
+        end: [
+          'parent',
+          'end'
+        ],
+        top: [
+          'parent',
+          'top'
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          -16
+        ],
+      }
+    },
+    end: {
+      box: {
+        width: 'spread',
+        height: 'spread',
+        start: [
+          'parent',
+          'start'
+        ],
+        end: [
+          'parent',
+          'end'
+        ],
+        top: [
+          'parent',
+          'top'
+        ],
+        bottom: [
+          'parent',
+          'bottom',
+          -16
+        ],
+      }
+    }
+  },
+  Transitions: {
+    default: {
+      from: 'start',
+      to: 'end',
+      pathMotionArc: 'startHorizontal',
+      KeyFrames: {
+        KeyAttributes: [
+          {
+            target: [
+              'header_text'
+            ],
+            frames: [
+              0,
+              100
+            ]
+          },
+        ]
+      }
+    }
+  }
+}

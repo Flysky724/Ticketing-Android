@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mohkhz.flysky_agent_support"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:20.0.4] /home/mohammadkz/.gradle/caches/transforms-3/09b506a4eb8103b6f3f387a39310d473/transformed/firebase-database-20.0.4/AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:20.0.4] /home/mohammadkz/.gradle/caches/transforms-3/09b506a4eb8103b6f3f387a39310d473/transformed/firebase-database-20.0.4/AndroidManifest.xml:25:22-76
+16
+17    <application
+17-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:7:5-29:19
+18        android:name="com.mohkhz.flysky_agent.MyApp"
+18-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:8:9-30
+19        android:allowBackup="true"
+19-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:9:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /home/mohammadkz/.gradle/caches/transforms-3/63415c0ec981a4d945c791fd0af45c0f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:extractNativeLibs="false"
+22        android:icon="@drawable/logo"
+22-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:10:9-38
+23        android:label="@string/app_name"
+23-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:11:9-41
+24        android:networkSecurityConfig="@xml/network_security_config"
+24-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:12:9-69
+25        android:roundIcon="@drawable/logo"
+25-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:13:9-43
+26        android:supportsRtl="true"
+26-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:14:9-35
+27        android:theme="@style/Theme.Flysky_agent"
+27-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:15:9-50
+28        android:usesCleartextTraffic="true"
+28-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:16:9-44
+29        android:windowSoftInputMode="adjustResize" >
+29-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:17:9-51
+30        <activity
+30-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:18:9-28:20
+31            android:name="com.mohkhz.flysky_agent.MainActivity"
+31-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:19:13-41
+32            android:exported="true"
+32-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:20:13-36
+33            android:label="@string/app_name"
+33-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:21:13-45
+34            android:theme="@style/Theme.Flysky_agent" >
+34-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:22:13-54
+35            <intent-filter>
+35-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:23:13-27:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:24:17-69
+36-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:24:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:26:17-77
+38-->/home/mohammadkz/AndroidStudioProjects/flysky_agent/app/src/main/AndroidManifest.xml:26:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <service
+42-->[com.google.firebase:firebase-database-ktx:20.0.4] /home/mohammadkz/.gradle/caches/transforms-3/c1d32249766e43d701d608307570786a/transformed/firebase-database-ktx-20.0.4/AndroidManifest.xml:12:9-18:19
+43            android:name="com.google.firebase.components.ComponentDiscoveryService"
+43-->[com.google.firebase:firebase-database-ktx:20.0.4] /home/mohammadkz/.gradle/caches/transforms-3/c1d32249766e43d701d608307570786a/transformed/firebase-database-ktx-20.0.4/AndroidManifest.xml:13:13-84
+44            android:directBootAware="true"
+44-->[com.google.firebase:firebase-common:20.1.0] /home/mohammadkz/.gradle/caches/transforms-3/bd4ec4d0346c24388daf6b491558d46e/transformed/firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+45            android:exported="false" >
+45-->[com.google.firebase:firebase-database-ktx:20.0.4] /home/mohammadkz/.gradle/caches/transforms-3/c1d32249766e43d701d608307570786a/transformed/firebase-database-ktx-20.0.4/AndroidManifest.xml:14:13-37
+46            <meta-data
+46-->[com.google.firebase:firebase-database-ktx:20.0.4] /home/mohammadkz/.gradle/caches/transforms-3/c1d32249766e43d701d608307570786a/transformed/firebase-database-ktx-20.0.4/AndroidManifest.xml:15:13-17:85
+47                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+47-->[com.google.firebase:firebase-database-ktx:20.0.4] /home/mohammadkz/.gradle/caches/transforms-3/c1d32249766e43d701d608307570786a/transformed/firebase-database-ktx-20.0.4/AndroidManifest.xml:16:17-124
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-database-ktx:20.0.4] /home/mohammadkz/.gradle/caches/transforms-3/c1d32249766e43d701d608307570786a/transformed/firebase-database-ktx-20.0.4/AndroidManifest.xml:17:17-82
+49            <meta-data
+49-->[com.google.firebase:firebase-common-ktx:20.1.0] /home/mohammadkz/.gradle/caches/transforms-3/3509c47ef8198120d058247c54589bab/transformed/firebase-common-ktx-20.1.0/AndroidManifest.xml:15:13-17:85
+50                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+50-->[com.google.firebase:firebase-common-ktx:20.1.0] /home/mohammadkz/.gradle/caches/transforms-3/3509c47ef8198120d058247c54589bab/transformed/firebase-common-ktx-20.1.0/AndroidManifest.xml:16:17-113
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-common-ktx:20.1.0] /home/mohammadkz/.gradle/caches/transforms-3/3509c47ef8198120d058247c54589bab/transformed/firebase-common-ktx-20.1.0/AndroidManifest.xml:17:17-82
+52            <meta-data
+52-->[com.google.firebase:firebase-database:20.0.4] /home/mohammadkz/.gradle/caches/transforms-3/09b506a4eb8103b6f3f387a39310d473/transformed/firebase-database-20.0.4/AndroidManifest.xml:32:13-34:85
+53                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+53-->[com.google.firebase:firebase-database:20.0.4] /home/mohammadkz/.gradle/caches/transforms-3/09b506a4eb8103b6f3f387a39310d473/transformed/firebase-database-20.0.4/AndroidManifest.xml:33:17-109
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.firebase:firebase-database:20.0.4] /home/mohammadkz/.gradle/caches/transforms-3/09b506a4eb8103b6f3f387a39310d473/transformed/firebase-database-20.0.4/AndroidManifest.xml:34:17-82
+55        </service>
+56
+57        <provider
+57-->[com.google.firebase:firebase-common:20.1.0] /home/mohammadkz/.gradle/caches/transforms-3/bd4ec4d0346c24388daf6b491558d46e/transformed/firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+58            android:name="com.google.firebase.provider.FirebaseInitProvider"
+58-->[com.google.firebase:firebase-common:20.1.0] /home/mohammadkz/.gradle/caches/transforms-3/bd4ec4d0346c24388daf6b491558d46e/transformed/firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+59            android:authorities="com.mohkhz.flysky_agent_support.firebaseinitprovider"
+59-->[com.google.firebase:firebase-common:20.1.0] /home/mohammadkz/.gradle/caches/transforms-3/bd4ec4d0346c24388daf6b491558d46e/transformed/firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:20.1.0] /home/mohammadkz/.gradle/caches/transforms-3/bd4ec4d0346c24388daf6b491558d46e/transformed/firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+61            android:exported="false"
+61-->[com.google.firebase:firebase-common:20.1.0] /home/mohammadkz/.gradle/caches/transforms-3/bd4ec4d0346c24388daf6b491558d46e/transformed/firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+62            android:initOrder="100" />
+62-->[com.google.firebase:firebase-common:20.1.0] /home/mohammadkz/.gradle/caches/transforms-3/bd4ec4d0346c24388daf6b491558d46e/transformed/firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+63
+64        <activity
+64-->[com.google.android.gms:play-services-base:18.0.1] /home/mohammadkz/.gradle/caches/transforms-3/d0a8203166ee53ce82620685ca20b2a1/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+65-->[com.google.android.gms:play-services-base:18.0.1] /home/mohammadkz/.gradle/caches/transforms-3/d0a8203166ee53ce82620685ca20b2a1/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+66            android:exported="false"
+66-->[com.google.android.gms:play-services-base:18.0.1] /home/mohammadkz/.gradle/caches/transforms-3/d0a8203166ee53ce82620685ca20b2a1/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+67-->[com.google.android.gms:play-services-base:18.0.1] /home/mohammadkz/.gradle/caches/transforms-3/d0a8203166ee53ce82620685ca20b2a1/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:18.0.0] /home/mohammadkz/.gradle/caches/transforms-3/6a63abb17940d2da3f3ed1b70ddca026/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:18.0.0] /home/mohammadkz/.gradle/caches/transforms-3/6a63abb17940d2da3f3ed1b70ddca026/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:18.0.0] /home/mohammadkz/.gradle/caches/transforms-3/6a63abb17940d2da3f3ed1b70ddca026/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+72
+73        <provider
+73-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:25:9-33:20
+74            android:name="androidx.startup.InitializationProvider"
+74-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:26:13-67
+75            android:authorities="com.mohkhz.flysky_agent_support.androidx-startup"
+75-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:27:13-68
+76            android:exported="false" >
+76-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:28:13-37
+77            <meta-data
+77-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:30:13-32:52
+78                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+78-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:31:17-85
+79                android:value="androidx.startup" />
+79-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:32:17-49
+80        </provider>
+81
+82        <receiver
+82-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:35:9-47:20
+83            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+83-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:36:13-76
+84            android:directBootAware="false"
+84-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:37:13-44
+85            android:enabled="true"
+85-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:38:13-35
+86            android:exported="true"
+86-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:39:13-36
+87            android:permission="android.permission.DUMP" >
+87-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:40:13-57
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:41:13-43:29
+89                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:42:17-91
+89-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:42:25-88
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:44:13-46:29
+92                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:45:17-85
+92-->[androidx.profileinstaller:profileinstaller:1.2.0-beta02] /home/mohammadkz/.gradle/caches/transforms-3/d093f985d5b480cae628b84fbe9749dd/transformed/profileinstaller-1.2.0-beta02/AndroidManifest.xml:45:25-82
+93            </intent-filter>
+94        </receiver>
+95    </application>
+96
+97</manifest>
