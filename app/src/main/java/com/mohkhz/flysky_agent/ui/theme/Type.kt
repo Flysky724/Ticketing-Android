@@ -18,6 +18,10 @@ val kalameh_semi_bold = FontFamily(
     Font(R.font.kalameh_semi_bold),
 )
 
+val kalameh_num_bold = FontFamily(Font(R.font.kalame_num_bold))
+
+val kalameh_medium = FontFamily(Font(R.font.kalameh_medium))
+
 // Set of Material typography styles to start with
 val Typography = Typography(
     body1 = TextStyle(
