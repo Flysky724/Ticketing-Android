@@ -1,6 +1,7 @@
 package com.mohkhz.covid19_compose.ui.Chooser
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.CircularProgressIndicator
 import androidx.compose.runtime.Composable
@@ -8,12 +9,14 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.mohkhz.flysky_agent.R
 import com.mohkhz.flysky_agent_support.util.UiEvent
-import kotlinx.coroutines.flow.collect
 
 @Composable
 fun ChooserScreen(
@@ -39,25 +42,37 @@ fun ChooserScreen(
     }
 
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier
+            .fillMaxSize()
+            .background(
+                brush = Brush.verticalGradient(
+                    colors = listOf(
+                        Color(0xff6B1FDC),
+                        Color(0xff36106E),
+                    )
+                )
+            ),
         verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.CenterHorizontally,
     ) {
 
         Image(
-            painterResource(id = R.drawable.flysky_logo),
+            painterResource(id = R.drawable.ic_flyksy),
             contentDescription = "",
-            Modifier.size(180.dp)
+            Modifier
+                .size(195.dp)
+                .padding(bottom = 150.dp),
+            contentScale = ContentScale.Fit
         )
 
-        Spacer(modifier = Modifier.height(15.dp))
+        Spacer(modifier = Modifier.height(0.dp))
 
         if (loginProgress)
             CircularProgressIndicator(
                 modifier = Modifier
-                    .padding(20.dp)
-                    .size(20.dp),
-                strokeWidth = 5.dp
+                    .size(30.dp),
+                strokeWidth = 4.dp,
+                color = Color.White
             )
 
     }

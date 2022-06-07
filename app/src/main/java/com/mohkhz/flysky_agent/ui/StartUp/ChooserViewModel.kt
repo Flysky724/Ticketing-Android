@@ -13,7 +13,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -97,6 +96,7 @@ class ChooserViewModel @Inject constructor(private val repo: Repository) : ViewM
             when (response) {
                 is Resource.Error -> {
                     Log.d(TAG, response.message!!)
+                    onEvent(ChooseEvent.OnLogin)
                 }
                 is Resource.Success -> {
                     val result = response.data
